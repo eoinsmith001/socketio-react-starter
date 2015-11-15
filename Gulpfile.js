@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 watchify.args.debug = true;
 
 var bundler = watchify(browserify({
-  entries: './app/main.js',
+  entries: './app/main',
   extensions: ['.js']
 }, watchify.args));
 
